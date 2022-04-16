@@ -778,7 +778,8 @@ class testAVLList(unittest.TestCase):
     ### TESTING BALACNE FACTOR ###
 
     def check_BF(self, node, tree):
-        self.assertTrue(abs(node.getBf()) < 2)
+        self.assertTrue(abs(node.getLeft().getHeight() -
+                            node.getRight().getHeight()) < 2)
 
     def test_BF_after_insertion_at_start(self):
         T2 = AVLTreeList()
