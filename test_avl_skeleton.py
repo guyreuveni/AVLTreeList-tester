@@ -1,5 +1,5 @@
 import unittest
-from AVLTreeList import *
+from avl_skeleton import *
 
 
 """
