@@ -12,6 +12,9 @@ If you find any mistakes, please let us know and we will fix them.
 
 Written by Ofek Kasif and Guy Reuveni
 
-Additional contributors:
+
+**Additional contributors:**
+
 Jonathan Yahav
+
 Dor Burshan
