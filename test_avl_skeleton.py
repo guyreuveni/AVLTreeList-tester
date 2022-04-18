@@ -1221,6 +1221,7 @@ class testAVLList(unittest.TestCase):
             T1.append(i)
             T2.append(i)
 
+        # the height of an empty tree is -1.
         self.assertEqual(T1.concat(T3), 2)
         self.assertEqual(T4.concat(T2), 2)
 
