@@ -1250,16 +1250,12 @@ class testAVLList(unittest.TestCase):
             T2.append(i)
         self.assertEqual(abs(T1.getRoot().getHeight() -
                              T2.getRoot().getHeight()), T1.concat(T2))
-        self.assertEqual(
-            abs(T1.getTreeHeight()-T2.getTreeHeight()), T1.concat(T2))
         T3 = AVLTreeList()
         T4 = AVLTreeList()
         for i in range(10):
             T4.append(i)
         for i in range(5):
             T3.append(i)
-        self.assertEqual(
-            abs(T3.getTreeHeight()-T4.getTreeHeight()), T3.concat(T4))
         self.assertEqual(abs(T3.getRoot().getHeight() -
                              T4.getRoot().getHeight()), T3.concat(T4))
 
